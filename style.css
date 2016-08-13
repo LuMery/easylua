@@ -1,0 +1,24 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+.preload{
+ -webkit-transition: none !important;
+ -moz-transition: none !important;
+ -ms-transition: none !important;
+ -o-transition: none !important
+}
+html{
+margin:0; 
+padding:0; 
+-webkit-text-size-adjust:100%;
+font-size: 15px;
+font-family: Roboto, Verdana, Geneva, sans-serif;
+height: 100%;
+box-sizing: border-box;
+}
+body{
+ margin:0; 
+ padding-bottom: 97px;
+ background:#fff; 
+ color:#333;
+ min-height: 100%;
+ position: relative;
+}
