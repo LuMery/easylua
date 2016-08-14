@@ -4,7 +4,7 @@ html{
 margin:0;
 padding:0;
 font-size:16px;
-font-family:'Roboto', Verdana, Geneva, sans-serif
+font-family:'Roboto',Verdana,Geneva,sans-serif
 }
 body{
 margin:0;
@@ -27,50 +27,52 @@ height:40px;
 background:url(logo.png) no-repeat center;
 background-size:contain
 }
-#logo a {
-	display: block;
-	height: 40px;
-	width: 100%;
+#logo a{
+display:block;
+height:40px;
+width:90px;
+margin: 0 auto
 }
 .govno{
 width:100%;
-min-width: 420px;
+min-width:420px;
 padding:12px 0;
-border-bottom:1px solid #f1f1f1
+border-bottom:1px solid #eee
 }
-h1,h2,h3{
-font-weight:normal;
+h1,h2{
+font-weight:400;
 margin:0;
 padding:0
 }
 h1{
-font-size:48px;
+font-size:3em;
 text-align:center;
-margin-top:48px
+margin-top:42px
 }
-h3{font-size:13px}
 ul{
 margin:24px 0 0 0;
 padding:0;
 list-style-type:none;
 text-align:center;
-display: table;
+display:table
 }
 li{
 width:48%;
 margin:1%;
-box-sizing: border-box;
 display:inline-block;
+box-sizing: border-box;
 vertical-align:top;
 border-radius:8px;
-border:1px solid #f1f1f1
+border:1px solid #eee
 }
 .inside{
 text-align:left;
-padding:24px 24px;
-line-height: 1.4
+padding:24px;
+line-height:1.4
 }
-.inside a{color:#424242}
+.inside a{
+color:#444
+}
 h2 a{
 color:#0072ff!important;
 text-decoration:none;
@@ -85,38 +87,32 @@ color: #b40eb4!important;
 border-color: rgba(180,14,180,.3)
 }
 .price{
-padding: 6px 12px;
-border-radius: 6px;
-background: #f5f5f5;
-display: inline-block
+padding:6px 12px;
+border-radius:6px;
+background:#EEE;
+display:inline-block
 }
 .inside:hover .price{
-background: linear-gradient(#42a1ec, #0070c9);
-color: #fff
+color:#fff;
+background:linear-gradient(#42a1ec, #0070c9)
 }
 .price:hover{
+color:#fff;
 background: linear-gradient(#5bb3f9, #0d86e6)!important
 }
 .price:active{
-background: linear-gradient(#2588d6, #0764ad)!important;
-color: #fff
+color:#fff;
+background: linear-gradient(#2588d6, #0764ad)!important
 }
-.cit{text-align: center}
 .faq{
-text-align:center;
-margin:12px 0 24px 0 ;
-font-size:18px
-}
-.box {
-	margin-top: 24px;
+margin:12px 0 24px 0;
+font-size:1.2em
 }
 @media screen and (max-width: 800px) {
-	li{
-		width: 100%;
-		margin: 1% 0;
-		border: none;
-	}
-	.inside {
-		border-bottom: 1px solid #f1f1f1;
-	}
+li{
+width:100%;
+margin:1% 0;
+border:none
+}
+.inside {border-bottom: 1px solid #EEE}
 }
