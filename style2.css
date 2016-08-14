@@ -148,10 +148,11 @@ height:40px;
 width:100%
 }
 i{
-font-size: 0.9em;
-color: #999;
-margin-top: 8px;
-display: block
+font-size:0.9em;
+color:#999;
+padding:0 12px ;
+margin-top:8px;
+display:block
 }
 @media screen and (max-width: 800px) {
 .ins{
