@@ -13,7 +13,7 @@ color:#424242
 }
 .footer{
 width:100%;
-min-width:320px;
+min-width:310px;
 margin:48px 0;
 text-align:center
 }
@@ -23,7 +23,7 @@ margin-bottom: 12px
 }
 .wrapper{
 max-width: 1024px;
-min-width:320px;
+min-width:310px;
 margin:0 auto;
 padding: 0 12px;
 display: table;
@@ -40,7 +40,7 @@ background-size:contain
 }
 .govno{
 width:100%;
-min-width: 320px;
+min-width: 310px;
 padding:12px 0;
 border-bottom:1px solid #f1f1f1
 }
@@ -164,7 +164,7 @@ hr {
 }
 .faq{
 max-width: 70%;
-min-width:320px;
+min-width:310px;
 margin:0 auto;
 padding: 0 12px;
 text-align: left;
