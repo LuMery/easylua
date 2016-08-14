@@ -13,13 +13,13 @@ color:#424242
 }
 .footer{
 width:100%;
-min-width:320px;
+min-width:420px;
 margin:48px 0;
 text-align:center
 }
 .wrapper{
 max-width:1024px;
-min-width:320px;
+min-width:420px;
 margin:0 auto
 }
 #logo{
@@ -34,6 +34,7 @@ background-size:contain
 }
 .govno{
 width:100%;
+min-width: 420px;
 padding:12px 0;
 border-bottom:1px solid #f1f1f1
 }
@@ -52,11 +53,13 @@ ul{
 margin:24px 0 0 0;
 padding:0;
 list-style-type:none;
-text-align:center
+text-align:center;
+display: table;
 }
 li{
-width:420px;
-margin:10px;
+width:48%;
+margin:1%;
+box-sizing: border-box;
 display:inline-block;
 vertical-align:top;
 border-radius:8px;
@@ -101,9 +104,19 @@ color: #fff
 .cit{text-align: center}
 .faq{
 text-align:center;
-margin-top:24px;
+margin:12px 0 24px 0 ;
 font-size:18px
 }
 .box {
 	margin-top: 24px;
+}
+@media screen and (max-width: 800px) {
+	li{
+		width: 100%;
+		margin: 1% 0;
+		border: none;
+	}
+	.inside {
+		border-bottom: 1px solid #f1f1f1;
+	}
 }
