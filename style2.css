@@ -1,10 +1,10 @@
-@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext);
 .preload{-webkit-transition:none!important;-moz-transition:none!important;-ms-transition:none!important;-o-transition:none!important}
 html{
 margin:0;
 padding:0;
 font-size:16px;
-font-family:'PT Sans', Verdana, Geneva, sans-serif
+font-family:'Roboto', Verdana, Geneva, sans-serif
 }
 body{
 margin:0;
@@ -47,17 +47,24 @@ margin:0;
 padding:0
 }
 h1{
-font-size:48px;
+font-size: 2.5em;
 margin-top:48px;
 padding-right: 24px;
+}
+h2 {
+	font-size: 1.2em;
 }
 h3{font-size:20px}
 h4{
 	font-size:24px;
 	margin-top: 12px;
 }
+.oth {
+	margin-top: 18px;
+	color: #999;
+}
 ul{
-margin:24px 0 0 0;
+margin:12px 0 0 0;
 padding:0;
 list-style-type:none;
 text-align:center
@@ -72,7 +79,7 @@ margin-bottom: 12px;
 }
 .inside{
 text-align:left;
-padding:18px;
+padding:12px 18px;
 line-height: 1.4
 }
 .inside a{color:#424242}
@@ -91,7 +98,7 @@ border-color: rgba(180,14,180,.3)
 }
 .ins .price{
 border-radius: 6px;
-font-size: 36px;
+font-size: 2em;
 display: inline-block
 }
 .cit{text-align: center}
@@ -114,10 +121,12 @@ font-size:18px
 	border: 1px solid #e2ae6e;
 	margin-top: 12px;
 	margin-right: 24px;
+	font-size: 0.9em;
 }
 .money h3 {
 	padding: 0 20px;
 	margin: 12px 0;
+	font-size: 1.2em;
 }
 .money p {
 	margin: 12px 0;
@@ -159,4 +168,10 @@ text-align: left;
 }
 .faq h4 {
 	font-size: 18px;
+}
+i {
+	font-size: 0.9em;
+	color: #999;
+	margin-top: 8px;
+	display: block;
 }
