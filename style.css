@@ -13,13 +13,13 @@ color:#424242
 }
 .footer{
 width:100%;
-min-width:420px;
+min-width:320px;
 margin:48px 0;
 text-align:center
 }
 .wrapper{
 max-width:1024px;
-min-width:420px;
+min-width:320px;
 margin:0 auto
 }
 #logo{
@@ -34,7 +34,7 @@ background-size:contain
 }
 .govno{
 width:100%;
-min-width: 420px;
+min-width: 320px;
 padding:12px 0;
 border-bottom:1px solid #f1f1f1
 }
