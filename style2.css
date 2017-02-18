@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&subset=cyrillic');
 html{
 margin:0;
 padding:0;
@@ -78,7 +78,7 @@ width:100%;
 margin-bottom:12px;
 display:inline-block;
 vertical-align:top;
-border-radius:8px;
+border-radius:6px;
 border:1px solid #EEE
 }
 .inside{
@@ -120,10 +120,10 @@ vertical-align:top;
 box-sizing:border-box
 }
 .money{
-background:#FEB;
-border:1px solid #DA6;
+background:#fff6dc;
+border:1px solid #ffd7a3;
 margin:12px 12px 0 12px;
-border-radius: 8px;
+border-radius: 6px;
 font-size:0.9em
 }
 .money h3{
@@ -138,7 +138,7 @@ padding:0 20px
 hr{
 border:none;
 height:1px;
-background:#DA6; 
+background:#ffd7a3; 
 margin:0
 }
 #logo a{
@@ -148,6 +148,7 @@ width:100%
 }
 i{
 font-size:0.9em;
+font-family: 'Roboto Italic', sans-serif;
 color:#999;
 padding:0 12px ;
 margin-top:8px;
