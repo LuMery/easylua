@@ -23,22 +23,24 @@ margin:0 auto
 }
 #logo{
 height:40px;
-background:url(logo.png) no-repeat center;
+width: 90px;
+margin: 0 auto;
+background:url(logo.png) no-repeat;
 background-size:contain
 }
 #logo a{
 display:block;
 height:40px;
-width:90px;
+width:100%;
 margin: 0 auto
 }
-.govno{
+.header{
 width:100%;
 min-width:420px;
-padding:12px 0;
+padding:8px 0;
 border-bottom:1px solid #eee
 }
-h1,h2{
+h1,h2,h3{
 font-weight:400;
 margin:0;
 padding:0
@@ -47,6 +49,12 @@ h1{
 font-size:3em;
 text-align:center;
 margin-top:42px
+}
+h2 {
+font-size:1em;
+text-align:center;
+margin-top:6px;
+color: #aaa
 }
 ul{
 margin:24px 0 0 0;
@@ -61,7 +69,7 @@ margin:1%;
 display:inline-block;
 box-sizing: border-box;
 vertical-align:top;
-border-radius:8px;
+border-radius:6px;
 border:1px solid #eee
 }
 .inside{
@@ -72,16 +80,17 @@ line-height:1.4
 .inside a{
 color:#444
 }
-h2 a{
+h3 a{
 color:#0072ff!important;
 text-decoration:none;
-border-bottom:1px solid rgba(0,114,255,.3)
+border-bottom:1px solid rgba(0,114,255,.3);
+font-size:1.2em;
 }
-h2 a:hover{
+h3 a:hover{
 color:#f41224!important;
 border-color: rgba(244,18,36,.3)
 }
-h2 a:visited{
+h3 a:visited{
 color: #b40eb4!important;
 border-color: rgba(180,14,180,.3)
 }

@@ -32,13 +32,13 @@ font-size:1.2em
 height:40px;
 width:90px;
 margin:0 auto;
-background:url(logo.png) no-repeat center;
+background:url(logo.png) no-repeat;
 background-size:contain
 }
 .govno{
 width:100%;
-min-width: 420px;
-padding:12px 0;
+min-width:420px;
+padding:8px 0;
 border-bottom:1px solid #EEE
 }
 h1,h2,h3{
